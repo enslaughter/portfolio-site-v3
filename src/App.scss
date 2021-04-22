@@ -1,0 +1,344 @@
+$lightbg: #fafafa;
+$accentcyan: #5fb4a2;
+$maintext: #33323d;
+
+html,
+#root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100%;
+  color: $maintext;
+  background-color: $lightbg;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+input,
+textarea,
+button {
+  font-family: inherit;
+}
+
+.homepage-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 160px;
+}
+
+.nav-bar {
+  margin: 64px 160px;
+  padding-right: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: $maintext;
+  padding-left: 42px;
+  font-weight: 500;
+  &:hover {
+    color: $accentcyan;
+  }
+}
+
+.nav-logo {
+  .nav-logo-image {
+    height: 48px;
+    &:hover path {
+      fill: $accentcyan;
+    }
+  }
+  .nav-logo-image:hover line {
+    stroke: $accentcyan;
+  }
+}
+
+/* ============================================================ */
+/* =========================HOME SECTION======================= */
+/* ============================================================ */
+
+.hero-container {
+  width: calc(100vw - 320px);
+  background-image: url("./resources/HeroBG_Desktop.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: $lightbg;
+
+  h1 {
+    font-size: 72px;
+    letter-spacing: 2px;
+    padding-top: 160px;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  }
+
+  p {
+    font-size: 32px;
+    letter-spacing: 1px;
+    padding-bottom: 160px;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    font-weight: 700;
+  }
+}
+
+.about-container {
+  width: 100%;
+  margin-top: 150px;
+  display: flex;
+  flex-direction: row;
+}
+
+.about-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0px 125px;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  h2 {
+    font-size: 40px;
+    margin: 0;
+    margin-top: 50px;
+  }
+
+  .page-link {
+    margin-bottom: 48px;
+  }
+}
+
+.page-link {
+  max-width: fit-content;
+  font-weight: 500;
+  padding: 16px 32px;
+  text-decoration: none;
+  color: $maintext;
+  border: 1px solid $maintext;
+  font-size: 12px;
+  text-align: center;
+
+  &:hover {
+    color: $accentcyan;
+    border-color: $accentcyan;
+  }
+}
+
+.page-footer {
+  width: 100%;
+  background-color: $maintext;
+  color: $lightbg;
+
+  .nav-link {
+    color: $lightbg;
+    &:hover {
+      color: $accentcyan;
+    }
+  }
+
+  .nav-logo-image path {
+    fill: $lightbg;
+  }
+
+  .nav-logo-image line {
+    stroke: $lightbg;
+  }
+
+  .nav-logo-image:hover line {
+    stroke: $accentcyan;
+  }
+}
+
+.skills-container {
+  margin-top: 150px;
+  h2 {
+    font-size: 40px;
+    text-align: center;
+  }
+  div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.contact-cta {
+  margin-top: 150px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  p {
+    font-size: 40px;
+    margin-right: 24px;
+  }
+
+  div {
+    height: 1px;
+    background: grey;
+    flex: 1 0 0;
+  }
+
+  .page-link {
+    margin-left: 24px;
+  }
+}
+
+/* ============================================================ */
+/* =====================PROJECTS SECTION======================= */
+/* ============================================================ */
+
+.projects-container {
+  margin: 0px 160px;
+}
+
+.about-container {
+  img {
+    max-width: 50%;
+  }
+}
+
+.project-link-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.project-link-divider {
+  min-width: 8px;
+}
+
+/* ============================================================ */
+/* ====================CONTACT ME SECTION====================== */
+/* ============================================================ */
+
+.contact-container {
+  margin: 0px 160px;
+}
+
+.contact-flexbox {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  h2 {
+    margin: 0;
+    font-size: 40px;
+    width: 475px;
+    margin-right: 125px;
+    flex-shrink: 0;
+  }
+}
+
+.contact-flexbox--top {
+  padding: 48px 0px;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  margin-bottom: 48px;
+}
+
+.contact-flexbox--bottom {
+  margin-bottom: 100px;
+}
+
+.social-link {
+  color: $maintext;
+  margin-right: 16px;
+  &:hover {
+    color: $accentcyan;
+  }
+}
+
+.contact-form-container {
+  width: 100%;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+textarea {
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 1px solid $maintext;
+  font-weight: 700;
+  padding: 8px 16px;
+  margin-bottom: 24px;
+
+  &::placeholder {
+    color: hsla(0, 0, 0, 0.5);
+  }
+}
+
+label {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.contact-button {
+  border: none;
+  color: $lightbg;
+  font-size: 12px;
+  letter-spacing: 2px;
+  max-width: 200px;
+  padding: 16px 24px;
+  background: hsl(205, 41%, 21%);
+
+  &:hover {
+    background-color: hsl(205, 41%, 31%);
+    cursor: pointer;
+  }
+}
+
+.label-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-error-text {
+  margin: 0;
+  font-size: 12px;
+  font-style: italic;
+  color: hsl(0, 80, 60);
+}
+
+.label-error {
+  color: hsl(0, 60, 50);
+}
+
+.input-error {
+  border: 1px solid hsl(0, 80, 60);
+  &:focus {
+    outline-color: hsl(0, 80, 60);
+  }
+  &::placeholder {
+    color: hsla(0, 60, 50, 50%);
+  }
+}
+
+.form-validation-ok {
+  color: hsl(120, 40, 50);
+}
+
+.form-validation-error {
+  color: hsl(0, 80, 60);
+}
