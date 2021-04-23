@@ -102,13 +102,13 @@ function Contact() {
         <h2>Get in Touch</h2>
         <div className="contact-text-container">
           <p>
-            I'm currently looking for any and all work experience that may be
-            available to me, so I'm always open to be contacted for new and
-            interesting opportunities. I have a wide array of skills and have
-            plenty of experience in tackling new challenges. I'm a fast learner,
-            so even unfamiliar territory is something that I have confidence in
-            being able to pick up. If I've piqued your interest, I'd love to
-            hear about any opportunities that I could help you with.
+            I'm currently looking for some formal work experience, so I'm open
+            to be contacted for new and interesting opportunities. I have a wide
+            array of skills and have plenty of experience in tackling new
+            challenges. I'm a fast learner, so even unfamiliar territory is
+            something that I have confidence in being able to pick up. If you're
+            in need of a, I'd love to hear about any opportunities that I could
+            help you with.
           </p>
           <div className="contact-icons-container">
             <a

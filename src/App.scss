@@ -29,7 +29,7 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0px 160px;
+  margin: 0% 10%;
 }
 
 .nav-bar {
@@ -101,11 +101,15 @@ button {
   flex-direction: row;
 }
 
+.about-image {
+  object-fit: contain;
+}
+
 .about-text {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin: 0px 125px;
+  margin: 0 10%;
   border-top: 1px solid grey;
   border-bottom: 1px solid grey;
   h2 {
@@ -170,7 +174,7 @@ button {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
   }
 }
 
@@ -203,13 +207,17 @@ button {
 /* ============================================================ */
 
 .projects-container {
-  margin: 0px 160px;
+  margin: 0 10%;
 }
 
 .about-container {
   img {
     max-width: 50%;
   }
+}
+
+.project-image {
+  object-fit: contain;
 }
 
 .project-link-container {
@@ -227,7 +235,7 @@ button {
 /* ============================================================ */
 
 .contact-container {
-  margin: 0px 160px;
+  margin: 0 10%;
 }
 
 .contact-flexbox {
@@ -237,8 +245,8 @@ button {
   h2 {
     margin: 0;
     font-size: 40px;
-    width: 475px;
-    margin-right: 125px;
+    flex-basis: 50%;
+    margin-right: 16px;
     flex-shrink: 0;
   }
 }

@@ -14,7 +14,7 @@ function Home() {
       </div>
 
       <div className="about-container">
-        <img src={PortfolioBust} alt=""></img>
+        <img src={PortfolioBust} alt="" className="about-image"></img>
         <div className="about-text">
           <div>
             <h2>About Me</h2>
@@ -39,7 +39,7 @@ function Home() {
 
       <div className="skills-container">
         <h2>My Skills</h2>
-        <div>
+        <div className="skills-icon-container">
           <img src={iconhtml} alt="HTML"></img>
           <img src={iconcss} alt="CSS"></img>
           <img src={iconjs} alt="Javascript"></img>
