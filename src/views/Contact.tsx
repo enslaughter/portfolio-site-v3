@@ -107,8 +107,8 @@ function Contact() {
             array of skills and have plenty of experience in tackling new
             challenges. I'm a fast learner, so even unfamiliar territory is
             something that I have confidence in being able to pick up. If you're
-            in need of a, I'd love to hear about any opportunities that I could
-            help you with.
+            in need of a flexible web developer, I'd love to hear about any
+            opportunities that I could help you with.
           </p>
           <div className="contact-icons-container">
             <a

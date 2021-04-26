@@ -50,8 +50,8 @@ function Home() {
           Being a frontend web developer, I am experienced in the core
           fundamentals of HTML, CSS, and Javascript. My frontend framework of
           choice is React, but I am more than willing to learn whatever I am
-          asked to use. I experience with Github for my version control, and am
-          familiar with the use of shells such as Cygwin.
+          asked to use. I have experience with Github for my version control,
+          and am familiar with the use of shells such as Cygwin.
         </p>
         <p>
           In addition to the above skills, I have been educating myself on the
