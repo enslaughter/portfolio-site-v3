@@ -1,15 +1,15 @@
-import { Link } from "react-router-dom";
 import siteinvoiceapp from "../resources/siteinvoiceapp.png";
 import sitepomodoroapp from "../resources/sitepomodoroapp.png";
 import sitejobfilters from "../resources/sitejobfilters.png";
 import sitejobapi from "../resources/sitejobapi.png";
+import sitephotosnap from "../resources/sitephotosnap.png";
 
 function Projects() {
   return (
     <div className="projects-container">
       <div className="contact-flexbox">
         <h2>A Small Collection of My Work</h2>
-        <div>
+        <div className="projects-info-box">
           <p>
             Below are some of my projects that demonstrate my ability as a
             frontend web developer. All sites feature responsive designs and
@@ -62,7 +62,7 @@ function Projects() {
         </div>
       </div>
 
-      <div className="about-container">
+      <div className="about-container project-even">
         <div className="about-text">
           <div>
             <h2>Pomodoro App</h2>
@@ -96,7 +96,7 @@ function Projects() {
         <img src={sitepomodoroapp} alt="" className="project-image"></img>
       </div>
 
-      <div className="about-container">
+      {/* <div className="about-container">
         <img src={sitejobfilters} alt="" className="project-image"></img>
         <div className="about-text">
           <div>
@@ -127,9 +127,45 @@ function Projects() {
             </a>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div className="about-container">
+        <img src={sitephotosnap} alt="" className="project-image"></img>
+        <div className="about-text">
+          <div>
+            <h2>Photosnap Multi-Page Website</h2>
+            <p>
+              A more stylistically-driven project, focused more on clean design
+              and less on Javascript functionality. It features four pages that
+              each have a responsive design to be viewed on both desktop and
+              mobile. This project is a demonstration of my ability to create
+              websites that are more geared towards businesses in need of
+              modernized information pages.
+            </p>
+          </div>
+          <div className="project-link-container">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://fem-photosnap-react.vercel.app/"
+              className="page-link"
+            >
+              VIEW SITE
+            </a>
+            <div className="project-link-divider"></div>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://github.com/enslaughter/fem-photosnap-react"
+              className="page-link"
+            >
+              SOURCE CODE
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div className="about-container project-even">
         <div className="about-text">
           <div>
             <h2>Github Jobs App</h2>
@@ -170,9 +206,9 @@ function Projects() {
           Like what <br></br>you see?
         </p>
         <div className="contact-cta--divider"></div>
-        <Link to="/contact" className="page-link">
+        <a href="/contact" className="page-link">
           CONTACT ME
-        </Link>
+        </a>
       </div>
     </div>
   );

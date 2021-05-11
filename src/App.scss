@@ -11,12 +11,18 @@ html,
 
 body {
   margin: 0;
-  min-height: 100%;
+  height: auto;
   color: $maintext;
   background-color: $lightbg;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 16px;
+}
+
+@media all and (max-width: 950px) {
+  body {
+    font-size: 12px;
+  }
 }
 
 input,
@@ -51,6 +57,21 @@ button {
   }
 }
 
+@media all and (max-width: 950px) {
+  .nav-bar {
+    margin: 16px;
+  }
+
+  .nav-link {
+    padding-left: 8px;
+  }
+
+  .nav-logo {
+    margin-left: -16px;
+    margin-right: -40px;
+  }
+}
+
 .nav-logo {
   .nav-logo-image {
     height: 48px;
@@ -82,15 +103,29 @@ button {
     font-size: 72px;
     letter-spacing: 2px;
     padding-top: 160px;
-    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.75);
   }
 
   p {
     font-size: 32px;
     letter-spacing: 1px;
     padding-bottom: 160px;
-    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.75);
     font-weight: 700;
+  }
+}
+
+@media all and (max-width: 950px) {
+  .hero-container {
+    width: 100vw;
+
+    h1 {
+      font-size: 36px;
+    }
+
+    p {
+      font-size: 16px;
+    }
   }
 }
 
@@ -139,6 +174,29 @@ button {
   }
 }
 
+@media all and (max-width: 950px) {
+  .about-container {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 32px;
+  }
+  .about-image {
+    margin-bottom: 32px;
+  }
+
+  .about-text {
+    align-items: center;
+    h2 {
+      text-align: center;
+      margin-top: 24px;
+    }
+    .page-link {
+      margin: 16px;
+      margin-bottom: 24px;
+    }
+  }
+}
+
 .page-footer {
   width: 100%;
   background-color: $maintext;
@@ -178,6 +236,31 @@ button {
   }
 }
 
+@media all and (max-width: 950px) {
+  .skills-container {
+    div {
+      flex-wrap: wrap;
+      img {
+        flex-basis: 50%;
+        margin-bottom: 16px;
+        max-width: 100px;
+        max-height: 100px;
+      }
+    }
+  }
+}
+
+@media all and (max-width: 550px) {
+  .skills-container {
+    div {
+      img {
+        max-width: 70px;
+        max-height: 70px;
+      }
+    }
+  }
+}
+
 .contact-cta {
   margin-top: 150px;
   width: 100%;
@@ -199,6 +282,21 @@ button {
 
   .page-link {
     margin-left: 24px;
+  }
+}
+
+@media all and (max-width: 950px) {
+  .contact-cta {
+    p {
+      font-size: 20px;
+    }
+  }
+}
+
+@media all and (max-width: 950px) {
+  .skills-container,
+  .contact-cta {
+    margin-top: 32px;
   }
 }
 
@@ -228,6 +326,18 @@ button {
 
 .project-link-divider {
   min-width: 8px;
+}
+
+@media all and (max-width: 950px) {
+  .about-container {
+    img {
+      max-width: 100%;
+      margin-bottom: 32px;
+    }
+  }
+  .project-even {
+    flex-direction: column-reverse;
+  }
 }
 
 /* ============================================================ */
@@ -260,6 +370,24 @@ button {
 
 .contact-flexbox--bottom {
   margin-bottom: 100px;
+}
+
+@media all and (max-width: 950px) {
+  .contact-flexbox {
+    flex-direction: column;
+    align-items: center;
+    h2 {
+      flex-basis: auto;
+      text-align: center;
+      margin-right: 0;
+      margin-bottom: 32px;
+    }
+    .projects-info-box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
 }
 
 .social-link {

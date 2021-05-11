@@ -3,7 +3,6 @@ import iconhtml from "../resources/iconhtml.svg";
 import iconcss from "../resources/iconcss.svg";
 import iconjs from "../resources/iconjs.svg";
 import iconreact from "../resources/iconreact.svg";
-import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -31,9 +30,9 @@ function Home() {
               and have been working on my own creative writing.
             </p>
           </div>
-          <Link to="/projects" className="page-link">
+          <a href="/projects" className="page-link">
             VIEW PORTFOLIO
-          </Link>
+          </a>
         </div>
       </div>
 
@@ -69,9 +68,9 @@ function Home() {
           Like what <br></br>you see?
         </p>
         <div className="contact-cta--divider"></div>
-        <Link to="/contact" className="page-link">
+        <a href="/contact" className="page-link">
           CONTACT ME
-        </Link>
+        </a>
       </div>
     </div>
   );

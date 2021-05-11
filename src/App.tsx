@@ -45,15 +45,15 @@ function App() {
                 </Link>
               </div>
               <div>
-                <Link to="/" className="nav-link">
+                <a href="/" className="nav-link">
                   HOME
-                </Link>
-                <Link to="/projects" className="nav-link">
+                </a>
+                <a href="/projects" className="nav-link">
                   PROJECTS
-                </Link>
-                <Link to="/contact" className="nav-link">
+                </a>
+                <a href="/contact" className="nav-link">
                   CONTACT
-                </Link>
+                </a>
               </div>
             </div>
           </nav>
