@@ -96,7 +96,7 @@ function Projects() {
         <img src={sitepomodoroapp} alt="" className="project-image"></img>
       </div>
 
-      {/* <div className="about-container">
+      <div className="about-container">
         <img src={sitejobfilters} alt="" className="project-image"></img>
         <div className="about-text">
           <div>
@@ -127,10 +127,9 @@ function Projects() {
             </a>
           </div>
         </div>
-      </div> */}
+      </div>
 
-      <div className="about-container">
-        <img src={sitephotosnap} alt="" className="project-image"></img>
+      <div className="about-container project-even">
         <div className="about-text">
           <div>
             <h2>Photosnap Multi-Page Website</h2>
@@ -163,9 +162,10 @@ function Projects() {
             </a>
           </div>
         </div>
+        <img src={sitephotosnap} alt="" className="project-image"></img>
       </div>
 
-      <div className="about-container project-even">
+      {/* <div className="about-container project-even">
         <div className="about-text">
           <div>
             <h2>Github Jobs App</h2>
@@ -199,7 +199,7 @@ function Projects() {
           </div>
         </div>
         <img src={sitejobapi} alt="" className="project-image"></img>
-      </div>
+      </div> */}
 
       <div className="contact-cta">
         <p>
