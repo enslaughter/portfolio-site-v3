@@ -96,7 +96,7 @@ function Projects() {
         <img src={sitepomodoroapp} alt="" className="project-image"></img>
       </div>
 
-      <div className="about-container">
+      {/* <div className="about-container">
         <img src={sitejobfilters} alt="" className="project-image"></img>
         <div className="about-text">
           <div>
@@ -127,9 +127,10 @@ function Projects() {
             </a>
           </div>
         </div>
-      </div>
+      </div> */}
 
-      <div className="about-container project-even">
+      <div className="about-container">
+        <img src={sitephotosnap} alt="" className="project-image"></img>
         <div className="about-text">
           <div>
             <h2>Photosnap Multi-Page Website</h2>
@@ -162,20 +163,26 @@ function Projects() {
             </a>
           </div>
         </div>
-        <img src={sitephotosnap} alt="" className="project-image"></img>
       </div>
 
-      {/* <div className="about-container project-even">
+      <div className="about-container project-even">
         <div className="about-text">
           <div>
-            <h2>Github Jobs App</h2>
+            <h2>GitHub Jobs App</h2>
             <p>
-              An application that fetches data from the Github Jobs API and
+              An application that fetches data from the GitHub Jobs API and
               generates listings from the results. Features theme switching,
               searching, filtering, and the ability to dynamically load more
               results. The app also features routing to view individual listings
               from their ID, and allows the user to view detailed information on
               the listing.
+            </p>
+            <p>
+              <b>Note:</b> The GitHub Jobs API has been deprecated as of May
+              2021. As a result I have used static JSON Data that I have saved.
+              I am currently working on restoring some minor functionality to
+              use local filtering methods rather than modifying the (now
+              deprecated) API call.
             </p>
           </div>
           <div className="project-link-container">
@@ -199,7 +206,7 @@ function Projects() {
           </div>
         </div>
         <img src={sitejobapi} alt="" className="project-image"></img>
-      </div> */}
+      </div>
 
       <div className="contact-cta">
         <p>
