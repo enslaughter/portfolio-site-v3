@@ -52,7 +52,8 @@ function Contact() {
           errors[property] = "empty";
         }
 
-        let regEmail = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+        let regEmail =
+          /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
         if (!regEmail.test(formData.reply_to)) {
           errors[property] = "invalid";
         }
@@ -102,13 +103,12 @@ function Contact() {
         <h2>Get in Touch</h2>
         <div className="contact-text-container">
           <p>
-            I'm currently looking for some formal work experience, so I'm open
-            to be contacted for new and interesting opportunities. I have a wide
+            I'm currently looking for more industry experience, and am open to
+            being contacted for new and interesting opportunities. I have a wide
             array of skills and have plenty of experience in tackling new
-            challenges. I'm a fast learner, so even unfamiliar territory is
-            something that I have confidence in being able to pick up. If you're
-            in need of a flexible web developer, I'd love to hear about any
-            opportunities that I could help you with.
+            challenges. I'm a fast learner, so even new technology is something
+            I can easily pick up. If you're in need of a flexible web developer,
+            I'd love to hear about any opportunities that I could help you with.
           </p>
           <div className="contact-icons-container">
             <a

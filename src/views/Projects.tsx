@@ -11,11 +11,10 @@ function Projects() {
         <h2>A Small Collection of My Work</h2>
         <div className="projects-info-box">
           <p>
-            Below are some of my projects that demonstrate my ability as a
-            frontend web developer. All sites feature responsive designs and
-            modern design features like theme switching, modals, and data
-            filtering. All code is written by myself and can be found on my
-            Github page.
+            Below are some of my personal projects as a frontend web developer.
+            All sites feature responsive designs and modern design features like
+            theme switching, modals, and data filtering. All code is written by
+            myself and can be found on my Github page.
           </p>
           <br></br>
           <a

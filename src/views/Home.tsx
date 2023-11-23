@@ -18,11 +18,11 @@ function Home() {
           <div>
             <h2>About Me</h2>
             <p>
-              I'm a self-taught frontend web developer and I'm eager to get some
-              real-world developer experience under my belt. I'm located in
-              Waterloo, Ontario, though I would prefer to work remotely. I keep
-              up with modern website trends and take pride in seeing my work
-              come to life in a clean, user-friendly experience.
+              I've been a frontend web developer for three years and I'm eager
+              to get additional developer experience under my belt. I'm located
+              in Kingston, Ontario, though I would prefer to work remotely. I
+              keep up with modern web design trends and take pride in seeing my
+              work come to life in a clean, user-friendly experience.
             </p>
             <p>
               I'm not just a web developer though. I studied Chemical
@@ -47,19 +47,19 @@ function Home() {
         <br></br>
         <p>
           Being a frontend web developer, I am experienced in the core
-          fundamentals of HTML, CSS, and Javascript. My frontend framework of
-          choice is React, but I am more than willing to learn whatever I am
-          asked to use. I have experience with Github for my version control,
-          and am familiar with the use of shells such as Cygwin.
+          fundamentals of HTML, CSS, and Javascript/Typescript. My frontend
+          framework of choice is React, but I am able to learn whatever tools
+          are required. My preferred frontend testing languages are Jest and
+          Cypress. I prefer Github for my version control, and Ubuntu as part of
+          my development environment.
         </p>
         <p>
-          In addition to the above skills, I have been educating myself on the
-          topics of algorithms and data structures. In terms of workplace-ready
-          skills, I have experience in creating modern website functionalities
-          such as object filtering, modals, and form validation. I am currently
-          trying to elevate the robustness of my work by teaching myself testing
-          via Jest, design patterns, and using Typescript over regular
-          Javascript.
+          In addition to the above skills, I have educated myself in core
+          computer science concepts like data structures and algorithms. I have
+          experience in creating modern website functionalities such as object
+          filtering, dynamic loading, modals, and form validation. On top of
+          frontend work, I have successfully completed work in APIs written in
+          Python, and devops work involving Kubernetes and GCP.
         </p>
       </div>
 
