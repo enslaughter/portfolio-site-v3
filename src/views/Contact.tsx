@@ -119,14 +119,14 @@ function Contact() {
             >
               <i className="fab fa-github fa-2x"></i>
             </a>
-            <a
+            {/* <a
               className="social-link"
               rel="noreferrer"
               target="_blank"
               href="https://twitter.com/enslaugh"
             >
               <i className="fab fa-twitter fa-2x"></i>
-            </a>
+            </a> */}
             <a
               className="social-link"
               rel="noreferrer"
