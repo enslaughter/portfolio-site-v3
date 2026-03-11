@@ -2,7 +2,7 @@ import React from "react";
 import Home from "./views/Home";
 import Projects from "./views/Projects";
 import Contact from "./views/Contact";
-import { ReactComponent as Logo } from "./resources/Logo.svg";
+import Logo from "./resources/Logo.svg?react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import "./App.scss";
 

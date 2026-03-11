@@ -418,7 +418,7 @@ textarea {
   margin-bottom: 24px;
 
   &::placeholder {
-    color: hsla(0, 0, 0, 0.5);
+    color: hsla(0, 0%, 0%, 50%);
   }
 }
 
@@ -454,27 +454,27 @@ label {
   margin: 0;
   font-size: 12px;
   font-style: italic;
-  color: hsl(0, 80, 60);
+  color: hsl(0, 80%, 60%);
 }
 
 .label-error {
-  color: hsl(0, 60, 50);
+  color: hsl(0, 60%, 50%);
 }
 
 .input-error {
-  border: 1px solid hsl(0, 80, 60);
+  border: 1px solid hsl(0, 80%, 60%);
   &:focus {
-    outline-color: hsl(0, 80, 60);
+    outline-color: hsl(0, 80%, 60%);
   }
   &::placeholder {
-    color: hsla(0, 60, 50, 50%);
+    color: hsla(0, 60%, 50%, 50%);
   }
 }
 
 .form-validation-ok {
-  color: hsl(120, 40, 50);
+  color: hsl(120, 40%, 50%);
 }
 
 .form-validation-error {
-  color: hsl(0, 80, 60);
+  color: hsl(0, 80%, 60%);
 }

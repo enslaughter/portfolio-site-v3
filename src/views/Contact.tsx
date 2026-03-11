@@ -75,10 +75,10 @@ function Contact() {
   function submitForm() {
     emailjs
       .sendForm(
-        process.env.REACT_APP_EMAILJS_SERVICEID,
-        process.env.REACT_APP_EMAILJS_TEMPLATEID,
+        import.meta.env.VITE_EMAILJS_SERVICEID,
+        import.meta.env.VITE_EMAILJS_TEMPLATEID,
         "#contact-form",
-        process.env.REACT_APP_EMAILJS_USERID
+        import.meta.env.VITE_EMAILJS_USERID
       )
       .then(
         (result) => {
