@@ -145,8 +145,6 @@ button {
   flex-direction: column;
   justify-content: space-between;
   margin: 0 10%;
-  border-top: 1px solid grey;
-  border-bottom: 1px solid grey;
   h2 {
     font-size: 40px;
     margin: 0;
@@ -223,10 +221,11 @@ button {
 }
 
 .skills-container {
-  margin-top: 150px;
+  margin-top: 50px;
+  width: 100%;
   h2 {
     font-size: 40px;
-    text-align: center;
+    text-align: left;
   }
   div {
     display: flex;
@@ -262,7 +261,7 @@ button {
 }
 
 .contact-cta {
-  margin-top: 150px;
+  margin-top: 50px;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -477,4 +476,97 @@ label {
 
 .form-validation-error {
   color: hsl(0, 80%, 60%);
+}
+
+.about-cta {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  margin-bottom: 48px;
+
+  .page-link {
+    margin-bottom: 0;
+  }
+}
+
+@media all and (max-width: 950px) {
+  .about-cta {
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+}
+
+.experience-section {
+  width: 100%;
+  margin-top: 50px;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  padding: 50px 0;
+
+  h2 {
+    font-size: 40px;
+    margin: 0 0 8px 0;
+  }
+
+  .experience-role {
+    font-size: 16px;
+    font-weight: 500;
+    color: #666;
+    margin: 0 0 32px 0;
+  }
+
+  ul {
+    margin: 0;
+    padding-left: 20px;
+
+    li {
+      margin-bottom: 12px;
+      line-height: 1.6;
+    }
+  }
+}
+
+@media all and (max-width: 950px) {
+  .experience-section {
+    margin-top: 32px;
+
+    h2 {
+      font-size: 28px;
+    }
+  }
+}
+
+.skills-grid {
+  margin-top: 32px;
+  display: grid !important; 
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+
+  div {
+    display: block !important; 
+    padding-top: 16px;
+
+    h3 {
+      font-size: 20px;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: $accentcyan;
+      margin: 0 0 8px 0;
+    }
+
+    p {
+      margin: 0;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+  }
+}
+
+@media all and (max-width: 950px) {
+  .skills-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
 }

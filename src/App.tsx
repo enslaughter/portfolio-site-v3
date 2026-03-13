@@ -36,6 +36,7 @@ function App() {
           <Route exact path="/projects" component={Projects} />
           <Route exact path="/contact" component={Contact} />
         </Switch>
+
         <div className="page-footer">
           <nav>
             <div className="nav-bar">
@@ -45,15 +46,15 @@ function App() {
                 </Link>
               </div>
               <div>
-                <a href="/" className="nav-link">
+                <Link to="/" className="nav-link">
                   HOME
-                </a>
-                <a href="/projects" className="nav-link">
+                </Link>
+                <Link to="/projects" className="nav-link">
                   PROJECTS
-                </a>
-                <a href="/contact" className="nav-link">
+                </Link>
+                <Link to="/contact" className="nav-link">
                   CONTACT
-                </a>
+                </Link>
               </div>
             </div>
           </nav>
